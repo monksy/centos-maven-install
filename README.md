@@ -11,6 +11,9 @@ chmod +x maven-install.sh
 sudo ./maven-install.sh
 
 TODO: 
+  - Check to see if the user has permission to write to /usr/local
+  - Check to see if the mvn command exists after fixing the environment variables
+  - Better error messages
   - Check for a previous installation
    - If found prompt for removal
   - Argument to install a specific version
