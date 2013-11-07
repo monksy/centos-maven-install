@@ -12,6 +12,8 @@ sudo ./maven-install.sh
 
 ## TODO: 
 
+- Check to see if the profile.d directory exists before starting the script
+- Check to see if the distro is RHEL/Centos
 - Check to see if the user has permission to write to /usr/local
 - Check to see if the mvn command exists after fixing the environment variables
 - Better error messages
