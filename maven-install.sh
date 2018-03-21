@@ -6,7 +6,7 @@ DOWNLOAD_TO="$TEMPORARY_DIRECTORY/maven.tgz"
 
 echo 'Downloading Maven to: ' "$DOWNLOAD_TO"
 
-wget -O "$DOWNLOAD_TO" http://www.eng.lsu.edu/mirrors/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz
+wget -O "$DOWNLOAD_TO" http://apache.mirrors.lucidnetworks.net/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
 
 echo 'Extracting Maven'
 tar xzf $DOWNLOAD_TO -C $TEMPORARY_DIRECTORY
